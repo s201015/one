@@ -1,0 +1,25 @@
+#fix-phone-under-menu{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  font-size: 0;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+#fix-phone-under-menu li {
+  display: inline-block;
+  width: 30%;
+  font-size: 14px;
+  border-right: 1px solid #fff;
+}
+
+#fix-phone-under-menu li a{
+  color: #fff;
+  background: #252525;
+  width: 10%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 40px;
+}//下部にあるバーのプログラム
