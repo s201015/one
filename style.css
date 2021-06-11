@@ -1,25 +1,57 @@
-#fix-phone-under-menu{
+/*#fix-phone-under-menu{
   position: fixed;
   width: 100%;
   bottom: 0px;
   font-size: 0;
-  opacity: 0.9;
+  opacity: 1;
   z-index: 2;
 }
 
-#fix-phone-under-menu li {
+#fix-phone-under-menu li{
   display: inline-block;
-  width: 30%;
-  font-size: 14px;
+  width: 20%;
+  font-size: 15px;
   border-right: 1px solid #fff;
-}
+}width:横幅を設定
 
 #fix-phone-under-menu li a{
   color: #fff;
   background: #252525;
-  width: 10%;
+  width: 5%;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   height: 40px;
-}//下部にあるバーのプログラム
+}height:バーの縦幅を設定
+予備のプログラム*/
+#a1{
+position: fixed;
+background-color:rgb(153, 144, 144);
+width: 100%;
+bottom: 0px;
+left: 0px;
+display:inline-block;
+zoom:1;
+border-bottom:0px solid #fff;
+margin-left:auto;
+}
+
+
+#a1 ul{
+margin:0;
+padding:0;
+list-style-type:none;
+font-size: 11px;
+line-height:50px;
+letter-spacing:1px;
+}
+
+#a1 li{
+background-image:url(img/nav1.jpg);
+float:left;
+width:33%;
+text-align:center;
+margin:0;
+padding:0;
+border-right:solid 0.1px #cccccc;
+}
