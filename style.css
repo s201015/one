@@ -1,35 +1,9 @@
-/*#fix-phone-under-menu{
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  font-size: 0;
-  opacity: 1;
-  z-index: 2;
-}
-
-#fix-phone-under-menu li{
-  display: inline-block;
-  width: 20%;
-  font-size: 15px;
-  border-right: 1px solid #fff;
-}width:横幅を設定
-
-#fix-phone-under-menu li a{
-  color: #fff;
-  background: #252525;
-  width: 5%;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  height: 40px;
-}height:バーの縦幅を設定
-予備のプログラム*/
 #a1{
 position: fixed;
-background-color:rgb(153, 144, 144);
+background-color:rgb(145, 197, 240);
 width: 100%;
 bottom: 0px;
-left: 0px;
+  left: 0px;
 display:inline-block;
 zoom:1;
 border-bottom:0px solid #fff;
@@ -42,16 +16,48 @@ margin:0;
 padding:0;
 list-style-type:none;
 font-size: 11px;
-line-height:50px;
+line-height:65px;
 letter-spacing:1px;
 }
 
 #a1 li{
 background-image:url(img/nav1.jpg);
 float:left;
-width:33%;
+width:49.7%;
 text-align:center;
 margin:0;
 padding:0;
-border-right:solid 0.1px #cccccc;
+border-right:solid 0.1px #78b5d8;
+}
+#b1{
+position: fixed;
+background-color:rgb(145, 197, 240);
+width: 100%;
+top: 0px;
+left: 0px;
+display:inline-block;
+zoom:1;
+border-bottom:0px solid #fff;
+margin-left:auto;
+}
+
+
+#b1 ul{
+margin:0;
+padding:0;
+list-style-type:none;
+font-size: 11px;
+line-height:65px;
+letter-spacing:1px;
+}
+
+#b1 li{
+background-image:url(img/nav1.jpg);
+float:left;
+width:33%;
+line-height: 3.2em;
+text-align:center;
+margin:0;
+padding:0;
+border-right:solid 0.1px #78b5d8;
 }

@@ -1,20 +1,67 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="a1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+       /* window.onload = function(){
+        
+        var  z2 = document.getElementById("z2");
+        var  z3 = document.getElementById("z3");
+        }*/
+
+   function onefrist(t1){
+        var  z1 = document.getElementById('z1');
+        if(t1>0){
+             z1.innerHTML=t1;
+            
+        }else{
+             z1.innerHTML="---";
+        }
+     }
+     function onesecond(t2){
+        var  z2 = document.getElementById('z2');
+        if(t2>0){
+             z2.innerHTML=t2;
+            
+        }else{
+             z2.innerHTML="---";
+        }
+     }
+     function onethird(t3){
+        var  z3 = document.getElementById('z3');
+        if(t3>0){
+             z3.innerHTML=t3;
+            
+        }else{
+             z3.innerHTML="---";
+        }
+     }
+        window.onload = function(){
+         onefrist();
+         onesecond();
+         onethird();
+         }
+    </script>
+</head>
+<body>
+  <div id="a1">
       <ul>
         <li><a href="#">a1</a></li>
         <li><a href="#">a2</a></li>
-        <li><a href="#">a3</a></li>
       </ul>
     </div>
-
+    <div id="b1">
+      <ul>         
+        <li><a href="#">使える金額<div id="z1"></div></a></li>
+        <li><a href="#">現在の金額<div id="z2"></div></a></li>
+        <li><a href="#">目標額まで<div id="z3"></div></a></li>
+      </ul>
+    </div>
   <script src="script.js"></script>
-  </body>
+</body>
 </html>

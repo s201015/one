@@ -1,4 +1,4 @@
-//日付けに関する命令を扱えるようにする
+/*//日付けに関する命令を扱えるようにする
 var date = new Date();
 //年、月、日を取得
 var year = date.getFullYear();
@@ -27,3 +27,4 @@ if(weekday == 0){
   document.writeln("エラー！");
 }
 //↑利用時の年月を取得するプログラム
+*/
